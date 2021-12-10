@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Input</title>
+</head>
+<body>
+    <input type="number" name="número1" id="n1">
+    <input type="number" name="número2" id="n2">
+    <input type="button" value="confirmar">
+
+    <script>
+        var n1 = window.document.querySelector('input#n1')
+        var n2 = window.document.querySelector('input#n2')
+
+        var r = n1 + n2
+        window.document.write('teste ${r}')
+    </script>
+</body>
+</html>
