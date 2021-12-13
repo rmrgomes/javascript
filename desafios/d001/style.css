@@ -1,0 +1,12 @@
+body {
+    font: normal 1em Verdana;
+    background-color: antiquewhite;
+}
+
+input {
+    font: bold 1em Verdana;
+    background-color: cadetblue;
+    border-radius: 5px;
+    width: 120px;
+    height: 60px;
+}
