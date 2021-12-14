@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qual o seu país?</title>
+    <style>
+        body {
+            font: normal 1em Verdana;
+            color: brown;
+            background-color: antiquewhite;
+        }
+
+        input {
+            font: normal 1em Verdana;
+        }
+
+        div#res {
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Gringo ou não?</h1>
+    Nacionalidade: <input type="text" name="nome" id="txt">
+    <input type="button" value="Confirmar" onclick="nacionalidade()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function nacionalidade() {
+            var txt = document.getElementById('txt')
+            var res = document.getElementById('res')
+            var txt = txt.value
+
+            res.innerHTML = `<p>Olá, identificamos que sua nacionalidade é <strong>${txt}</strong></p>`
+            if (txt != Brasil) {
+                res.innerHTML += `<p>É GRINGO</p>`
+            }
+            res.innerHTML += `<p>Você é <strong>${txt}</strong> pô, adentra em minha humilde residência</p>`
+        }
+    </script>
 </body>
 </html>
