@@ -4,7 +4,7 @@
 Exercícios Interessantes
 
 <p>Horário do Dia!</p>
- <a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex014">Executar exercício</a>
+ <p><a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex014/modelo.html">Executar exercício</a></p>
 
 <p>Descobrindo sua Idade !</p>
- <a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex015">Executar exercício</a>
+ <a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex015/modelo.html">Executar exercício</a>
