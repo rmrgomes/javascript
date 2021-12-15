@@ -3,8 +3,8 @@
 
 Exercícios Interessantes
 
-Horário do Dia!
+<p>Horário do Dia!</p>
  <a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex014">Executar exercício</a>
 
-Descobrindo sua Idade !
+<p>Descobrindo sua Idade !</p>
  <a href="https://rmrgomes.github.io/javascript/exercicios/aula12ex/ex015">Executar exercício</a>
