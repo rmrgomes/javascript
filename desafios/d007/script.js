@@ -6,5 +6,5 @@ function converter() {
 
     var compra = carteira / dolar
 
-    res.innerHTML = `A cotação atual do Dólar é de US$ ${dolar.toFixed(2)}, com BR$ ${carteira.toFixed(2)} você conseguirá comprar US$ ${compra.toFixed(2)}`
+    res.innerHTML = `A cotação atual do Dólar é de US$ ${dolar.toFixed(2)}, com BR$ ${carteira.toFixed(2)} você conseguirá comprar US$ ${compra.toFixed(2)}.`
 }
