@@ -14,8 +14,8 @@ function converter() {
     medida.innerHTML += `${km.toFixed(3)} quilômetros (Km) <br>`
     medida.innerHTML += `${hm.toFixed(3)} hectômetros (Hm) <br>`
     medida.innerHTML += `${dam.toFixed(3)} hectômetros (Dam) <br>`
-    medida.innerHTML += `${dm} hectômetros (dm) <br>`
-    medida.innerHTML += `${cm} hectômetros (cm) <br>`
-    medida.innerHTML += `${mm} hectômetros (mm) <br>`
+    medida.innerHTML += `${dm.toFixed(1)} hectômetros (dm) <br>`
+    medida.innerHTML += `${cm.toFixed(0)} hectômetros (cm) <br>`
+    medida.innerHTML += `${mm.toFixed(0)} hectômetros (mm) <br>`
 
 }
