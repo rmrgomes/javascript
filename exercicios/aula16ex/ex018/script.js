@@ -3,19 +3,29 @@ let ana = document.querySelector('#ana')
 let res= document.querySelector('#res')
 let valores = []
 
-function adicionar() {
-    if (Number(num.value) == 0) {
-        alert('Insira um número válido!')
-    } else if (Number(num.value) < 1 || Number(num.value) > 100){
-        alert('Número inválido! Digite um número entre 1 e 100')
+function isNumero(n) {
+    if(Number(n) >= 1 && Number(n) <= 100) {
+        return true
     } else {
-        let item = document.createElement('option')
-        item.text = `Valor ${num} adicionado`
-        ana.appendChild(item)
-        valores = num
-    }   
+        return false
+    }
 }
 
-function analizar(valores) {
-    
+function inLista(n, l) {
+    if (l.indexOf(Number(n)) != -1) {
+        return true
+    } else {
+        return false
+    }
+}
+
+
+function adicionar() {
+    if(isNumero(num.value) && !inLista(num.value, valores)) {
+        
+    } else {
+        alert('Valor inválido ou já encontrado na lista.')
+    }
+    num.value = ''
+    num.focus()
 }
